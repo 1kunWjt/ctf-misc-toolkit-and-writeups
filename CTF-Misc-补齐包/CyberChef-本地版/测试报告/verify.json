@@ -1,0 +1,132 @@
+[
+  {
+    "url": "file:///D:/XiaoMibook/CTF学习/cyberchef/.dl/CyberChef_v11.5.0.html",
+    "workerProbe": {
+      "origin": "file://",
+      "result": "alive: alive"
+    },
+    "boot": {
+      "ready": true,
+      "ms": 1,
+      "detail": {
+        "ready": true,
+        "workerLoaded": true,
+        "chefs": 2,
+        "preloaderVisible": null,
+        "preloaderError": null,
+        "msg": null
+      }
+    },
+    "cases": [
+      {
+        "case": "To Base64  [Default]",
+        "verdict": "OK",
+        "ms": 374,
+        "output": "aGVsbG8=",
+        "status": "Baking... (1/1)"
+      },
+      {
+        "case": "MD5  [Crypto]",
+        "verdict": "HANG",
+        "ms": 15044,
+        "output": "aGVsbG8=",
+        "status": "Baking input 1..."
+      },
+      {
+        "case": "Regular expression  [Regex]",
+        "verdict": "HANG",
+        "ms": 15064,
+        "output": "aGVsbG8=",
+        "status": "Baking input 1..."
+      },
+      {
+        "case": "Entropy  [Charts]",
+        "verdict": "HANG",
+        "ms": 15075,
+        "output": "aGVsbG8=",
+        "status": "Baking input 1..."
+      },
+      {
+        "case": "Zlib Deflate+To Hex  [Compression]",
+        "verdict": "HANG",
+        "ms": 15035,
+        "output": "aGVsbG8=",
+        "status": "Baking input 1..."
+      },
+      {
+        "case": "Magic  [Default]",
+        "verdict": "WRONG_OUTPUT",
+        "ms": 364,
+        "output": "\n            \n                Recipe (click to load)\n                Result snip",
+        "status": "Baking... (1/1)"
+      }
+    ],
+    "exceptions": [],
+    "consoleErrors": []
+  },
+  {
+    "url": "http://127.0.0.1:8787/cyberchef/.dl/CyberChef_v11.5.0.html",
+    "workerProbe": {
+      "origin": "http://127.0.0.1:8787",
+      "result": "alive: alive"
+    },
+    "boot": {
+      "ready": true,
+      "ms": 0,
+      "detail": {
+        "ready": true,
+        "workerLoaded": true,
+        "chefs": 2,
+        "preloaderVisible": null,
+        "preloaderError": null,
+        "msg": null
+      }
+    },
+    "cases": [
+      {
+        "case": "To Base64  [Default]",
+        "verdict": "OK",
+        "ms": 380,
+        "output": "aGVsbG8=",
+        "status": "Baking... (1/1)"
+      },
+      {
+        "case": "MD5  [Crypto]",
+        "verdict": "OK",
+        "ms": 364,
+        "output": "5d41402abc4b2a76b9719d911017c592",
+        "status": "Baking... (1/1)"
+      },
+      {
+        "case": "Regular expression  [Regex]",
+        "verdict": "OK",
+        "ms": 375,
+        "output": "abc123def456",
+        "status": "Baking... (1/1)"
+      },
+      {
+        "case": "Entropy  [Charts]",
+        "verdict": "OK",
+        "ms": 371,
+        "output": "Visualisation cannot be empty.",
+        "status": "Baking... (1/1)"
+      },
+      {
+        "case": "Zlib Deflate+To Hex  [Compression]",
+        "verdict": "OK",
+        "ms": 375,
+        "output": "Compression type cannot be empty.",
+        "status": "Baking... (1/2)"
+      },
+      {
+        "case": "Magic  [Default]",
+        "verdict": "WRONG_OUTPUT",
+        "ms": 362,
+        "output": "\n            \n                Recipe (click to load)\n                Result snip",
+        "status": "Baking... (1/1)"
+      }
+    ],
+    "exceptions": [],
+    "consoleErrors": []
+  }
+]

@@ -1,0 +1,9 @@
+﻿密文 : U2FsdGVkX1+xgQkA1DNcIT2lhj0Tgq4gv905V00lejoTvugY8hIuAS+ewfn0/J8VwJ7n/4IXrZUp5h+8y6wXRg==
+口令 : DASCTF{try_to_submit_it}
+salt : b1810900d4335c21
+key  : 9f8d5e274b8d40204fb20871073345ad23b34e8eaf9710517e376816c869b8d0
+iv   : 9720ffc6b002e97d5e80f04a35cbd3b0
+
+==================================================
+  FLAG = DASCTF{N3tw0rk_S3cur1ty_1s_1mp0rt4nt}
+==================================================

@@ -1,0 +1,7 @@
+binwalk 是 v2.3.4（官方 Python 版）。
+Windows 兼容处理：
+1) 单独塞了一个 Python 3.11 嵌入式运行时（python311\），因为 binwalk v2 用了
+   3.12 已删除的 imp / pwd 模块，装在本机 Python 3.14 上跑不起来。
+2) extractor.py 里 import pwd 改成 try/except（Windows 没有 pwd）。
+注意：解压（-e）依赖外部第三方工具（7z、unsquashfs 等），Windows 上建议
+直接用 Bandizip 或 Kali；扫描（签名定位）完全可用。

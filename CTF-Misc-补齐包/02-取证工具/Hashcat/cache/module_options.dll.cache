@@ -1,0 +1,960 @@
+hashcat module options cache	1
+build	=v8.0.0	1792949685	800	696	800	8	windows-x86_64
+module	=module_00000.dll	15872	13437423285	0	0
+module	=module_00010.dll	15872	13437423285	0	0
+module	=module_00011.dll	15872	13437423285	0	0
+module	=module_00012.dll	15872	13437423285	0	0
+module	=module_00020.dll	15872	13437423285	0	0
+module	=module_00021.dll	15872	13437423285	0	0
+module	=module_00022.dll	44032	13437423285	0	0
+module	=module_00023.dll	41984	13437423285	0	0
+module	=module_00024.dll	15872	13437423285	0	0
+module	=module_00030.dll	15872	13437423285	0	0
+module	=module_00040.dll	15872	13437423285	0	0
+module	=module_00050.dll	15872	13437423285	0	0
+module	=module_00060.dll	15872	13437423285	0	0
+module	=module_00070.dll	15872	13437423285	0	0
+module	=module_00100.dll	15872	13437423285	0	0
+module	=module_00101.dll	41984	13437423285	0	0
+module	=module_00110.dll	15872	13437423285	0	0
+module	=module_00111.dll	42496	13437423285	0	0
+module	=module_00112.dll	15872	13437423285	0	0
+module	=module_00120.dll	15872	13437423285	0	0
+module	=module_00121.dll	15872	13437423285	0	0
+module	=module_00122.dll	41984	13437423285	0	0
+module	=module_00124.dll	41984	13437423285	0	0
+module	=module_00125.dll	41984	13437423285	0	0
+module	=module_00130.dll	15872	13437423285	0	0
+module	=module_00131.dll	41984	13437423285	0	0
+module	=module_00132.dll	41984	13437423285	0	0
+module	=module_00133.dll	41984	13437423285	0	0
+module	=module_00140.dll	15872	13437423285	0	0
+module	=module_00141.dll	42496	13437423285	0	0
+module	=module_00150.dll	16384	13437423285	0	0
+module	=module_00160.dll	15872	13437423285	0	0
+module	=module_00170.dll	15872	13437423285	0	0
+module	=module_00200.dll	15360	13437423285	0	0
+module	=module_00300.dll	15872	13437423285	0	0
+module	=module_00400.dll	43008	13437423285	0	0
+module	=module_00500.dll	43008	13437423285	0	0
+module	=module_00501.dll	43520	13437423285	0	0
+module	=module_00600.dll	15872	13437423285	0	0
+module	=module_00610.dll	15872	13437423285	0	0
+module	=module_00620.dll	15872	13437423285	0	0
+module	=module_00900.dll	15872	13437423285	0	0
+module	=module_01000.dll	15872	13437423285	0	0
+module	=module_01100.dll	16384	13437423285	0	0
+module	=module_01300.dll	15872	13437423285	0	0
+module	=module_01400.dll	15872	13437423285	0	0
+module	=module_01410.dll	16384	13437423285	0	0
+module	=module_01411.dll	42496	13437423285	0	0
+module	=module_01420.dll	16384	13437423285	0	0
+module	=module_01421.dll	41984	13437423285	0	0
+module	=module_01430.dll	16384	13437423285	0	0
+module	=module_01440.dll	16384	13437423285	0	0
+module	=module_01441.dll	43008	13437423285	0	0
+module	=module_01450.dll	15872	13437423285	0	0
+module	=module_01460.dll	16896	13437423285	0	0
+module	=module_01470.dll	15872	13437423285	0	0
+module	=module_01500.dll	42496	13437423285	0	0
+module	=module_01600.dll	43008	13437423285	0	0
+module	=module_01700.dll	16896	13437423285	0	0
+module	=module_01710.dll	16896	13437423285	0	0
+module	=module_01711.dll	43520	13437423285	0	0
+module	=module_01720.dll	16896	13437423285	0	0
+module	=module_01722.dll	43520	13437423285	0	0
+module	=module_01730.dll	17408	13437423285	0	0
+module	=module_01731.dll	43520	13437423285	0	0
+module	=module_01740.dll	17408	13437423285	0	0
+module	=module_01750.dll	15872	13437423285	0	0
+module	=module_01760.dll	15872	13437423285	0	0
+module	=module_01770.dll	16384	13437423285	0	0
+module	=module_01800.dll	46592	13437423285	0	0
+module	=module_02000.dll	13824	13437423285	0	0
+module	=module_02100.dll	41984	13437423285	0	0
+module	=module_02400.dll	16384	13437423285	0	0
+module	=module_02410.dll	16384	13437423285	0	0
+module	=module_02500.dll	56320	13437423285	0	3
+row	=eapol-message-pair	2	2	0	5	0	1	0	-	-	-	=remove	=Num	=Load only EAPOL message pairs matching X	=--eapol-message-pair=2
+row	=hccapx-message-pair	2	4	0	0	0	0	0	=eapol-message-pair	-	-	-	-	-	-
+row	=nonce-error-corrections	2	0	0	0	8	2	0	-	-	-	-	=Num	=The BF size range to replace AP's nonce last bytes	=--nonce-error-corrections=16
+module	=module_02501.dll	55296	13437423285	0	3
+row	=eapol-message-pair	2	2	0	5	0	1	0	-	-	-	=remove	=Num	=Load only EAPOL message pairs matching X	=--eapol-message-pair=2
+row	=hccapx-message-pair	2	4	0	0	0	0	0	=eapol-message-pair	-	-	-	-	-	-
+row	=nonce-error-corrections	2	0	0	0	8	2	0	-	-	-	-	=Num	=The BF size range to replace AP's nonce last bytes	=--nonce-error-corrections=16
+module	=module_02600.dll	15872	13437423285	0	0
+module	=module_02611.dll	15872	13437423285	0	0
+module	=module_02612.dll	41984	13437423285	0	0
+module	=module_02630.dll	15872	13437423285	0	0
+module	=module_02711.dll	15872	13437423285	0	0
+module	=module_02811.dll	15872	13437423285	0	0
+module	=module_03000.dll	16896	13437423285	0	0
+module	=module_03100.dll	41984	13437423285	0	0
+module	=module_03200.dll	43520	13437423285	0	0
+module	=module_03300.dll	43008	13437423285	0	0
+module	=module_03500.dll	15872	13437423285	0	0
+module	=module_03610.dll	15872	13437423285	0	0
+module	=module_03710.dll	15872	13437423285	0	0
+module	=module_03711.dll	41984	13437423285	0	0
+module	=module_03730.dll	16384	13437423285	0	0
+module	=module_03800.dll	15872	13437423285	0	0
+module	=module_03910.dll	15872	13437423285	0	0
+module	=module_04000.dll	62464	13437423285	0	0
+module	=module_04010.dll	15872	13437423285	0	0
+module	=module_04110.dll	15872	13437423285	0	0
+module	=module_04300.dll	15872	13437423285	0	0
+module	=module_04400.dll	15872	13437423285	0	0
+module	=module_04410.dll	15872	13437423285	0	0
+module	=module_04420.dll	15872	13437423285	0	0
+module	=module_04430.dll	15872	13437423285	0	0
+module	=module_04500.dll	15872	13437423285	0	0
+module	=module_04510.dll	15872	13437423285	0	0
+module	=module_04520.dll	15872	13437423285	0	0
+module	=module_04521.dll	15872	13437423285	0	0
+module	=module_04522.dll	15872	13437423285	0	0
+module	=module_04700.dll	15872	13437423285	0	0
+module	=module_04710.dll	15872	13437423285	0	0
+module	=module_04711.dll	15872	13437423285	0	0
+module	=module_04800.dll	41984	13437423285	0	0
+module	=module_04900.dll	15872	13437423285	0	0
+module	=module_05000.dll	15872	13437423285	0	0
+module	=module_05100.dll	15360	13437423285	0	0
+module	=module_05300.dll	44032	13437423285	0	0
+module	=module_05400.dll	44032	13437423285	0	0
+module	=module_05500.dll	19456	13437423285	0	0
+module	=module_05600.dll	17408	13437423285	0	0
+module	=module_05700.dll	41984	13437423285	0	0
+module	=module_05800.dll	15872	13437423285	0	0
+module	=module_06000.dll	16384	13437423285	0	0
+module	=module_06100.dll	16896	13437423285	0	0
+module	=module_06211.dll	46080	13437423285	0	1
+row	=truecrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--truecrypt-keyf=x.png
+module	=module_06212.dll	46080	13437423285	0	1
+row	=truecrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--truecrypt-keyf=x.png
+module	=module_06213.dll	46080	13437423285	0	1
+row	=truecrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--truecrypt-keyf=x.png
+module	=module_06221.dll	45056	13437423285	0	1
+row	=truecrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--truecrypt-keyf=x.png
+module	=module_06222.dll	45056	13437423285	0	1
+row	=truecrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--truecrypt-keyf=x.png
+module	=module_06223.dll	45568	13437423285	0	1
+row	=truecrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--truecrypt-keyf=x.png
+module	=module_06231.dll	45568	13437423285	0	1
+row	=truecrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--truecrypt-keyf=x.png
+module	=module_06232.dll	45568	13437423285	0	1
+row	=truecrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--truecrypt-keyf=x.png
+module	=module_06233.dll	45568	13437423285	0	1
+row	=truecrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--truecrypt-keyf=x.png
+module	=module_06241.dll	46592	13437423285	0	2
+row	=keyboard-layout-mapping	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyboard layout mapping table for special hash-modes	=--keyb=tables/layouts/de.table
+row	=truecrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--truecrypt-keyf=x.png
+module	=module_06242.dll	46592	13437423285	0	2
+row	=keyboard-layout-mapping	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyboard layout mapping table for special hash-modes	=--keyb=tables/layouts/de.table
+row	=truecrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--truecrypt-keyf=x.png
+module	=module_06243.dll	46592	13437423285	0	2
+row	=keyboard-layout-mapping	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyboard layout mapping table for special hash-modes	=--keyb=tables/layouts/de.table
+row	=truecrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--truecrypt-keyf=x.png
+module	=module_06300.dll	43008	13437423285	0	0
+module	=module_06600.dll	44544	13437423285	0	0
+module	=module_06800.dll	43520	13437423285	0	0
+module	=module_06900.dll	15872	13437423285	0	0
+module	=module_07000.dll	41984	13437423285	0	0
+module	=module_07300.dll	42496	13437423285	0	0
+module	=module_07350.dll	15872	13437423285	0	0
+module	=module_07400.dll	44544	13437423285	0	0
+module	=module_07401.dll	45056	13437423285	0	0
+module	=module_07500.dll	43008	13437423285	0	0
+module	=module_07700.dll	41984	13437423285	0	0
+module	=module_07701.dll	41984	13437423285	0	0
+module	=module_07800.dll	42496	13437423285	0	0
+module	=module_07801.dll	42496	13437423285	0	0
+module	=module_08000.dll	42496	13437423285	0	0
+module	=module_08100.dll	41984	13437423285	0	0
+module	=module_08200.dll	44032	13437423285	0	0
+module	=module_08300.dll	43520	13437423285	0	0
+module	=module_08400.dll	15872	13437423285	0	0
+module	=module_08500.dll	43520	13437423285	0	0
+module	=module_08501.dll	43520	13437423285	0	0
+module	=module_08600.dll	15360	13437423285	0	0
+module	=module_08700.dll	41984	13437423285	0	0
+module	=module_08800.dll	45056	13437423285	0	0
+module	=module_08900.dll	20480	13437423285	0	1
+row	=scrypt-tmto	2	0	0	0	0	0	0	-	-	-	-	=Num	=Manually override TMTO value for scrypt to X	=--scrypt-tmto=3
+module	=module_09000.dll	42496	13437423285	0	0
+module	=module_09100.dll	42496	13437423285	0	0
+module	=module_09300.dll	19968	13437423285	0	1
+row	=scrypt-tmto	2	0	0	0	0	0	0	-	-	-	-	=Num	=Manually override TMTO value for scrypt to X	=--scrypt-tmto=3
+module	=module_09400.dll	43008	13437423285	0	0
+module	=module_09500.dll	43008	13437423285	0	0
+module	=module_09600.dll	43520	13437423285	0	0
+module	=module_09700.dll	43008	13437423285	0	0
+module	=module_09710.dll	43008	13437423285	0	0
+module	=module_09720.dll	43008	13437423285	0	0
+module	=module_09800.dll	43520	13437423285	0	0
+module	=module_09810.dll	43520	13437423285	0	0
+module	=module_09820.dll	43520	13437423285	0	0
+module	=module_09900.dll	15872	13437423285	0	0
+module	=module_10100.dll	41984	13437423285	0	0
+module	=module_10200.dll	43008	13437423285	0	0
+module	=module_10400.dll	44032	13437423285	0	0
+module	=module_10410.dll	44032	13437423285	0	0
+module	=module_10420.dll	44544	13437423285	0	0
+module	=module_10500.dll	46080	13437423285	0	0
+module	=module_10510.dll	45568	13437423285	0	0
+module	=module_10600.dll	43520	13437423285	0	0
+module	=module_10700.dll	44032	13437423285	0	0
+module	=module_10800.dll	16896	13437423285	0	0
+module	=module_10810.dll	16896	13437423285	0	0
+module	=module_10820.dll	16896	13437423285	0	0
+module	=module_10830.dll	16896	13437423285	0	0
+module	=module_10840.dll	16896	13437423285	0	0
+module	=module_10870.dll	16896	13437423285	0	0
+module	=module_11100.dll	41984	13437423285	0	0
+module	=module_11200.dll	41984	13437423285	0	0
+module	=module_11300.dll	43008	13437423285	0	0
+module	=module_11400.dll	44032	13437423285	0	0
+module	=module_11500.dll	41984	13437423285	0	0
+module	=module_11600.dll	47616	13437423285	0	0
+module	=module_11700.dll	16384	13437423285	0	0
+module	=module_11800.dll	16384	13437423285	0	0
+module	=module_12200.dll	41984	13437423285	0	0
+module	=module_12400.dll	42496	13437423285	0	0
+module	=module_12500.dll	41984	13437423285	0	0
+module	=module_12600.dll	16384	13437423285	0	0
+module	=module_12700.dll	42496	13437423285	0	0
+module	=module_12900.dll	42496	13437423285	0	0
+module	=module_13000.dll	42496	13437423285	0	0
+module	=module_13100.dll	43520	13437423285	0	0
+module	=module_13200.dll	41984	13437423285	0	0
+module	=module_13300.dll	41984	13437423285	0	0
+module	=module_13400.dll	46080	13437423285	0	0
+module	=module_13500.dll	43008	13437423285	0	0
+module	=module_13600.dll	81920	13437423285	0	0
+module	=module_13711.dll	46592	13437423285	0	3
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_13712.dll	46592	13437423285	0	3
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_13713.dll	46592	13437423285	0	3
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_13721.dll	47104	13437423285	0	4
+row	=keyboard-layout-mapping	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyboard layout mapping table for special hash-modes	=--keyb=tables/layouts/de.table
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_13722.dll	47104	13437423285	0	4
+row	=keyboard-layout-mapping	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyboard layout mapping table for special hash-modes	=--keyb=tables/layouts/de.table
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_13723.dll	47104	13437423285	0	4
+row	=keyboard-layout-mapping	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyboard layout mapping table for special hash-modes	=--keyb=tables/layouts/de.table
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_13731.dll	46080	13437423285	0	3
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_13732.dll	46080	13437423285	0	3
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_13733.dll	46080	13437423285	0	3
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_13741.dll	48128	13437423285	0	4
+row	=keyboard-layout-mapping	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyboard layout mapping table for special hash-modes	=--keyb=tables/layouts/de.table
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_13742.dll	48128	13437423285	0	4
+row	=keyboard-layout-mapping	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyboard layout mapping table for special hash-modes	=--keyb=tables/layouts/de.table
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_13743.dll	48128	13437423285	0	4
+row	=keyboard-layout-mapping	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyboard layout mapping table for special hash-modes	=--keyb=tables/layouts/de.table
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_13751.dll	46592	13437423285	0	3
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_13752.dll	46592	13437423285	0	3
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_13753.dll	46592	13437423285	0	3
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_13761.dll	48128	13437423285	0	4
+row	=keyboard-layout-mapping	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyboard layout mapping table for special hash-modes	=--keyb=tables/layouts/de.table
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_13762.dll	48128	13437423285	0	4
+row	=keyboard-layout-mapping	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyboard layout mapping table for special hash-modes	=--keyb=tables/layouts/de.table
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_13763.dll	48128	13437423285	0	4
+row	=keyboard-layout-mapping	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyboard layout mapping table for special hash-modes	=--keyb=tables/layouts/de.table
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_13771.dll	46592	13437423285	0	3
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_13772.dll	46592	13437423285	0	3
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_13773.dll	46592	13437423285	0	3
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_13781.dll	48128	13437423285	0	4
+row	=keyboard-layout-mapping	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyboard layout mapping table for special hash-modes	=--keyb=tables/layouts/de.table
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_13782.dll	48128	13437423285	0	4
+row	=keyboard-layout-mapping	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyboard layout mapping table for special hash-modes	=--keyb=tables/layouts/de.table
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_13783.dll	48128	13437423285	0	4
+row	=keyboard-layout-mapping	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyboard layout mapping table for special hash-modes	=--keyb=tables/layouts/de.table
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_13800.dll	43008	13437423285	0	0
+module	=module_13900.dll	16384	13437423285	0	0
+module	=module_14000.dll	16896	13437423285	0	0
+module	=module_14100.dll	16384	13437423285	0	0
+module	=module_14200.dll	43520	13437423285	0	0
+module	=module_14400.dll	16384	13437423285	0	0
+module	=module_14500.dll	43520	13437423285	0	0
+module	=module_14600.dll	18432	13437423285	0	0
+module	=module_14700.dll	43520	13437423285	0	0
+module	=module_14800.dll	44032	13437423285	0	0
+module	=module_14900.dll	41984	13437423285	0	0
+module	=module_15000.dll	17408	13437423285	0	0
+module	=module_15200.dll	42496	13437423285	0	0
+module	=module_15300.dll	44032	13437423285	0	0
+module	=module_15310.dll	44032	13437423285	0	0
+module	=module_15400.dll	41984	13437423285	0	0
+module	=module_15500.dll	45568	13437423285	0	0
+module	=module_15600.dll	43520	13437423285	0	0
+module	=module_15700.dll	20992	13437423285	0	1
+row	=scrypt-tmto	2	0	0	0	0	0	0	-	-	-	-	=Num	=Manually override TMTO value for scrypt to X	=--scrypt-tmto=3
+module	=module_15900.dll	44032	13437423285	0	0
+module	=module_15910.dll	44032	13437423285	0	0
+module	=module_16000.dll	41984	13437423285	0	0
+module	=module_16100.dll	41984	13437423285	0	0
+module	=module_16200.dll	43008	13437423285	0	0
+module	=module_16300.dll	44544	13437423285	0	0
+module	=module_16400.dll	41472	13437423285	0	0
+module	=module_16500.dll	44032	13437423285	0	0
+module	=module_16501.dll	44032	13437423285	0	0
+module	=module_16600.dll	41984	13437423285	0	0
+module	=module_16700.dll	42496	13437423285	0	0
+module	=module_16800.dll	46080	13437423285	0	0
+module	=module_16801.dll	46592	13437423285	0	0
+module	=module_16900.dll	43520	13437423285	0	0
+module	=module_17010.dll	44032	13437423285	0	0
+module	=module_17020.dll	44544	13437423285	0	0
+module	=module_17030.dll	44544	13437423285	0	0
+module	=module_17040.dll	46080	13437423285	0	0
+module	=module_17050.dll	43520	13437423285	0	0
+module	=module_17200.dll	82944	13437423285	0	0
+module	=module_17210.dll	83456	13437423285	0	0
+module	=module_17220.dll	82944	13437423285	0	0
+module	=module_17225.dll	82432	13437423285	0	0
+module	=module_17230.dll	82944	13437423285	0	0
+module	=module_17300.dll	15872	13437423285	0	0
+module	=module_17400.dll	15360	13437423285	0	0
+module	=module_17500.dll	15872	13437423285	0	0
+module	=module_17600.dll	15872	13437423285	0	0
+module	=module_17700.dll	15872	13437423285	0	0
+module	=module_17800.dll	15360	13437423285	0	0
+module	=module_17900.dll	15872	13437423285	0	0
+module	=module_18000.dll	15872	13437423285	0	0
+module	=module_18100.dll	17408	13437423285	0	0
+module	=module_18200.dll	44032	13437423285	0	0
+module	=module_18300.dll	43008	13437423285	0	0
+module	=module_18400.dll	45568	13437423285	0	0
+module	=module_18600.dll	45568	13437423285	0	0
+module	=module_18700.dll	15360	13437423285	0	0
+module	=module_18900.dll	44544	13437423285	0	0
+module	=module_19000.dll	41984	13437423285	0	0
+module	=module_19100.dll	41984	13437423285	0	0
+module	=module_19200.dll	42496	13437423285	0	0
+module	=module_19300.dll	16896	13437423285	0	0
+module	=module_19500.dll	16896	13437423285	0	0
+module	=module_19600.dll	43520	13437423285	0	0
+module	=module_19700.dll	43520	13437423285	0	0
+module	=module_19800.dll	44032	13437423285	0	0
+module	=module_19900.dll	44032	13437423285	0	0
+module	=module_20011.dll	46080	13437423285	0	0
+module	=module_20012.dll	46080	13437423285	0	0
+module	=module_20013.dll	46080	13437423285	0	0
+module	=module_20500.dll	15872	13437423285	0	0
+module	=module_20510.dll	41984	13437423285	0	0
+module	=module_20710.dll	16384	13437423285	0	0
+module	=module_20711.dll	16384	13437423285	0	0
+module	=module_20712.dll	16384	13437423285	0	0
+module	=module_20800.dll	15872	13437423285	0	0
+module	=module_20900.dll	15872	13437423285	0	0
+module	=module_21000.dll	15872	13437423285	0	0
+module	=module_21100.dll	15872	13437423285	0	0
+module	=module_21200.dll	16384	13437423285	0	0
+module	=module_21310.dll	16384	13437423285	0	0
+module	=module_21400.dll	15872	13437423285	0	0
+module	=module_21500.dll	42496	13437423285	0	0
+module	=module_21501.dll	42496	13437423285	0	0
+module	=module_21700.dll	45056	13437423285	0	0
+module	=module_21800.dll	44544	13437423285	0	0
+module	=module_21900.dll	16384	13437423285	0	0
+module	=module_22000.dll	65536	13437423285	0	3
+row	=eapol-message-pair	2	2	0	5	0	1	0	-	-	-	=remove	=Num	=Load only EAPOL message pairs matching X	=--eapol-message-pair=2
+row	=hccapx-message-pair	2	4	0	0	0	0	0	=eapol-message-pair	-	-	-	-	-	-
+row	=nonce-error-corrections	2	0	0	0	8	2	0	-	-	-	-	=Num	=The BF size range to replace AP's nonce last bytes	=--nonce-error-corrections=16
+module	=module_22001.dll	65024	13437423285	0	3
+row	=eapol-message-pair	2	2	0	5	0	1	0	-	-	-	=remove	=Num	=Load only EAPOL message pairs matching X	=--eapol-message-pair=2
+row	=hccapx-message-pair	2	4	0	0	0	0	0	=eapol-message-pair	-	-	-	-	-	-
+row	=nonce-error-corrections	2	0	0	0	8	2	0	-	-	-	-	=Num	=The BF size range to replace AP's nonce last bytes	=--nonce-error-corrections=16
+module	=module_22100.dll	44544	13437423285	0	0
+module	=module_22200.dll	16896	13437423285	0	0
+module	=module_22300.dll	16384	13437423285	0	0
+module	=module_22301.dll	42496	13437423285	0	0
+module	=module_22400.dll	44032	13437423285	0	0
+module	=module_22500.dll	41984	13437423285	0	0
+module	=module_22600.dll	43008	13437423285	0	0
+module	=module_22700.dll	20480	13437423285	0	1
+row	=scrypt-tmto	2	0	0	0	0	0	0	-	-	-	-	=Num	=Manually override TMTO value for scrypt to X	=--scrypt-tmto=3
+module	=module_22911.dll	45056	13437423285	0	0
+module	=module_22921.dll	45056	13437423285	0	0
+module	=module_22931.dll	45056	13437423285	0	0
+module	=module_22941.dll	45056	13437423285	0	0
+module	=module_22951.dll	45056	13437423285	0	0
+module	=module_23001.dll	43008	13437423285	0	0
+module	=module_23002.dll	43008	13437423285	0	0
+module	=module_23003.dll	43008	13437423285	0	0
+module	=module_23100.dll	41984	13437423285	0	0
+module	=module_23300.dll	43008	13437423285	0	0
+module	=module_23400.dll	43520	13437423285	0	0
+module	=module_23500.dll	43520	13437423285	0	0
+module	=module_23600.dll	43520	13437423285	0	0
+module	=module_23700.dll	42496	13437423285	0	0
+module	=module_23800.dll	51200	13437423285	0	0
+module	=module_23900.dll	43008	13437423285	0	0
+module	=module_24000.dll	46080	13437423285	0	1
+row	=scrypt-tmto	2	0	0	0	0	0	0	-	-	-	-	=Num	=Manually override TMTO value for scrypt to X	=--scrypt-tmto=3
+module	=module_24100.dll	43520	13437423285	0	0
+module	=module_24300.dll	15872	13437423285	0	0
+module	=module_24410.dll	45056	13437423285	0	0
+module	=module_24420.dll	46080	13437423285	0	0
+module	=module_24430.dll	43008	13437423285	0	0
+module	=module_24440.dll	43008	13437423285	0	0
+module	=module_24500.dll	43008	13437423285	0	0
+module	=module_24600.dll	43008	13437423285	0	0
+module	=module_24700.dll	16384	13437423285	0	0
+module	=module_24800.dll	41984	13437423285	0	0
+module	=module_24900.dll	16384	13437423285	0	0
+module	=module_24901.dll	16384	13437423285	0	0
+module	=module_25000.dll	43520	13437423285	0	0
+module	=module_25100.dll	43520	13437423285	0	0
+module	=module_25200.dll	43520	13437423285	0	0
+module	=module_25300.dll	43520	13437423285	0	0
+module	=module_25400.dll	46592	13437423285	0	0
+module	=module_25500.dll	44032	13437423285	0	0
+module	=module_25600.dll	43520	13437423285	0	0
+module	=module_25700.dll	41984	13437423285	0	0
+module	=module_25800.dll	43520	13437423285	0	0
+module	=module_25900.dll	43008	13437423285	0	0
+module	=module_26000.dll	43008	13437423285	0	0
+module	=module_26100.dll	43008	13437423285	0	0
+module	=module_26150.dll	43520	13437423285	0	0
+module	=module_26200.dll	41984	13437423285	0	0
+module	=module_26401.dll	15872	13437423285	0	0
+module	=module_26402.dll	15872	13437423285	0	0
+module	=module_26403.dll	15872	13437423285	0	0
+module	=module_26500.dll	43008	13437423285	0	0
+module	=module_26600.dll	44544	13437423285	0	0
+module	=module_26610.dll	44032	13437423285	0	0
+module	=module_26700.dll	43520	13437423285	0	0
+module	=module_26800.dll	43520	13437423285	0	0
+module	=module_26900.dll	44032	13437423285	0	0
+module	=module_27000.dll	19968	13437423285	0	0
+module	=module_27100.dll	17408	13437423285	0	0
+module	=module_27200.dll	15872	13437423285	0	0
+module	=module_27300.dll	44544	13437423285	0	0
+module	=module_27400.dll	43008	13437423285	0	0
+module	=module_27500.dll	44032	13437423285	0	0
+module	=module_27600.dll	44544	13437423285	0	0
+module	=module_27700.dll	20480	13437423285	0	1
+row	=scrypt-tmto	2	0	0	0	0	0	0	-	-	-	-	=Num	=Manually override TMTO value for scrypt to X	=--scrypt-tmto=3
+module	=module_27800.dll	41984	13437423285	0	0
+module	=module_27900.dll	41984	13437423285	0	0
+module	=module_28000.dll	15872	13437423285	0	0
+module	=module_28100.dll	45568	13437423285	0	0
+module	=module_28200.dll	21504	13437423285	0	1
+row	=scrypt-tmto	2	0	0	0	0	0	0	-	-	-	-	=Num	=Manually override TMTO value for scrypt to X	=--scrypt-tmto=3
+module	=module_28300.dll	42496	13437423285	0	0
+module	=module_28400.dll	43520	13437423285	0	0
+module	=module_28501.dll	42496	13437423285	0	0
+module	=module_28502.dll	42496	13437423285	0	0
+module	=module_28503.dll	48128	13437423285	0	0
+module	=module_28504.dll	48128	13437423285	0	0
+module	=module_28505.dll	42496	13437423285	0	0
+module	=module_28506.dll	42496	13437423285	0	0
+module	=module_28700.dll	43520	13437423285	0	0
+module	=module_28800.dll	42496	13437423285	0	0
+module	=module_28900.dll	42496	13437423285	0	0
+module	=module_29000.dll	17408	13437423285	0	0
+module	=module_29200.dll	4234240	13437423285	0	0
+module	=module_29311.dll	45568	13437423285	0	1
+row	=truecrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--truecrypt-keyf=x.png
+module	=module_29312.dll	45568	13437423285	0	1
+row	=truecrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--truecrypt-keyf=x.png
+module	=module_29313.dll	45568	13437423285	0	1
+row	=truecrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--truecrypt-keyf=x.png
+module	=module_29321.dll	45056	13437423285	0	1
+row	=truecrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--truecrypt-keyf=x.png
+module	=module_29322.dll	45056	13437423285	0	1
+row	=truecrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--truecrypt-keyf=x.png
+module	=module_29323.dll	45056	13437423285	0	1
+row	=truecrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--truecrypt-keyf=x.png
+module	=module_29331.dll	45056	13437423285	0	1
+row	=truecrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--truecrypt-keyf=x.png
+module	=module_29332.dll	45056	13437423285	0	1
+row	=truecrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--truecrypt-keyf=x.png
+module	=module_29333.dll	45056	13437423285	0	1
+row	=truecrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--truecrypt-keyf=x.png
+module	=module_29341.dll	46592	13437423285	0	2
+row	=keyboard-layout-mapping	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyboard layout mapping table for special hash-modes	=--keyb=tables/layouts/de.table
+row	=truecrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--truecrypt-keyf=x.png
+module	=module_29342.dll	46592	13437423285	0	2
+row	=keyboard-layout-mapping	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyboard layout mapping table for special hash-modes	=--keyb=tables/layouts/de.table
+row	=truecrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--truecrypt-keyf=x.png
+module	=module_29343.dll	46592	13437423285	0	2
+row	=keyboard-layout-mapping	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyboard layout mapping table for special hash-modes	=--keyb=tables/layouts/de.table
+row	=truecrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--truecrypt-keyf=x.png
+module	=module_29411.dll	46080	13437423285	0	3
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_29412.dll	46080	13437423285	0	3
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_29413.dll	46592	13437423285	0	3
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_29421.dll	47104	13437423285	0	4
+row	=keyboard-layout-mapping	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyboard layout mapping table for special hash-modes	=--keyb=tables/layouts/de.table
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_29422.dll	47104	13437423285	0	4
+row	=keyboard-layout-mapping	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyboard layout mapping table for special hash-modes	=--keyb=tables/layouts/de.table
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_29423.dll	47104	13437423285	0	4
+row	=keyboard-layout-mapping	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyboard layout mapping table for special hash-modes	=--keyb=tables/layouts/de.table
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_29431.dll	46592	13437423285	0	3
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_29432.dll	46592	13437423285	0	3
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_29433.dll	46592	13437423285	0	3
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_29441.dll	47616	13437423285	0	4
+row	=keyboard-layout-mapping	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyboard layout mapping table for special hash-modes	=--keyb=tables/layouts/de.table
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_29442.dll	47616	13437423285	0	4
+row	=keyboard-layout-mapping	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyboard layout mapping table for special hash-modes	=--keyb=tables/layouts/de.table
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_29443.dll	47616	13437423285	0	4
+row	=keyboard-layout-mapping	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyboard layout mapping table for special hash-modes	=--keyb=tables/layouts/de.table
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_29451.dll	46592	13437423285	0	3
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_29452.dll	46592	13437423285	0	3
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_29453.dll	46592	13437423285	0	3
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_29461.dll	48128	13437423285	0	4
+row	=keyboard-layout-mapping	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyboard layout mapping table for special hash-modes	=--keyb=tables/layouts/de.table
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_29462.dll	48128	13437423285	0	4
+row	=keyboard-layout-mapping	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyboard layout mapping table for special hash-modes	=--keyb=tables/layouts/de.table
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_29463.dll	48128	13437423285	0	4
+row	=keyboard-layout-mapping	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyboard layout mapping table for special hash-modes	=--keyb=tables/layouts/de.table
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_29471.dll	46592	13437423285	0	3
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_29472.dll	46592	13437423285	0	3
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_29473.dll	46592	13437423285	0	3
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_29481.dll	47616	13437423285	0	4
+row	=keyboard-layout-mapping	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyboard layout mapping table for special hash-modes	=--keyb=tables/layouts/de.table
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_29482.dll	47616	13437423285	0	4
+row	=keyboard-layout-mapping	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyboard layout mapping table for special hash-modes	=--keyb=tables/layouts/de.table
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_29483.dll	47616	13437423285	0	4
+row	=keyboard-layout-mapping	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyboard layout mapping table for special hash-modes	=--keyb=tables/layouts/de.table
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_29491.dll	46592	13437423285	0	3
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_29492.dll	46592	13437423285	0	3
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_29493.dll	46592	13437423285	0	3
+row	=veracrypt-keyfiles	3	0	0	0	0	0	1	-	-	-	-	=File	=Keyfiles to use, separated with commas	=--veracrypt-keyf=x.txt
+row	=veracrypt-pim-start	2	0	0	0	485	1	0	-	=veracrypt-pim-stop	=veracrypt-pim-stop	-	=Num	=VeraCrypt personal iterations multiplier start	=--veracrypt-pim-start=450
+row	=veracrypt-pim-stop	2	0	0	0	485	2	0	-	-	=veracrypt-pim-start	-	=Num	=VeraCrypt personal iterations multiplier stop	=--veracrypt-pim-stop=500
+module	=module_29511.dll	172032	13437423285	0	0
+module	=module_29512.dll	300032	13437423285	0	0
+module	=module_29513.dll	300032	13437423285	0	0
+module	=module_29521.dll	172032	13437423285	0	0
+module	=module_29522.dll	556032	13437423285	0	0
+module	=module_29523.dll	300032	13437423285	0	0
+module	=module_29531.dll	300032	13437423285	0	0
+module	=module_29532.dll	172032	13437423285	0	0
+module	=module_29533.dll	300032	13437423285	0	0
+module	=module_29541.dll	300032	13437423285	0	0
+module	=module_29542.dll	300032	13437423285	0	0
+module	=module_29543.dll	172032	13437423285	0	0
+module	=module_29600.dll	43520	13437423285	0	0
+module	=module_29700.dll	46080	13437423285	0	0
+module	=module_29800.dll	20480	13437423285	0	1
+row	=scrypt-tmto	2	0	0	0	0	0	0	-	-	-	-	=Num	=Manually override TMTO value for scrypt to X	=--scrypt-tmto=3
+module	=module_29910.dll	43008	13437423285	0	0
+module	=module_29920.dll	43008	13437423285	0	0
+module	=module_29930.dll	41984	13437423285	0	0
+module	=module_29940.dll	43008	13437423285	0	0
+module	=module_30000.dll	41984	13437423285	0	0
+module	=module_30120.dll	43008	13437423285	0	0
+module	=module_30420.dll	15872	13437423285	0	0
+module	=module_30500.dll	15872	13437423285	0	0
+module	=module_30600.dll	43520	13437423285	0	0
+module	=module_30601.dll	43520	13437423285	0	0
+module	=module_30700.dll	42496	13437423285	0	0
+module	=module_30901.dll	42496	13437423285	0	0
+module	=module_30902.dll	42496	13437423285	0	0
+module	=module_30903.dll	48128	13437423285	0	0
+module	=module_30904.dll	48128	13437423285	0	0
+module	=module_30905.dll	42496	13437423285	0	0
+module	=module_30906.dll	42496	13437423285	0	0
+module	=module_31000.dll	15872	13437423285	0	0
+module	=module_31100.dll	15872	13437423285	0	0
+module	=module_31200.dll	43008	13437423285	0	0
+module	=module_31300.dll	41984	13437423285	0	0
+module	=module_31400.dll	41984	13437423285	0	0
+module	=module_31500.dll	15872	13437423285	0	0
+module	=module_31600.dll	41984	13437423285	0	0
+module	=module_31700.dll	16384	13437423285	0	0
+module	=module_31800.dll	44544	13437423285	0	0
+module	=module_31900.dll	43520	13437423285	0	0
+module	=module_32100.dll	43520	13437423285	0	0
+module	=module_32200.dll	43520	13437423285	0	0
+module	=module_32300.dll	16896	13437423285	0	0
+module	=module_32500.dll	43008	13437423285	0	0
+module	=module_32700.dll	41984	13437423285	0	0
+module	=module_32800.dll	15872	13437423285	0	0
+module	=module_33000.dll	17408	13437423285	0	0
+module	=module_33400.dll	42496	13437423285	0	0
+module	=module_33500.dll	43008	13437423285	0	0
+module	=module_33501.dll	43008	13437423285	0	0
+module	=module_33502.dll	43008	13437423285	0	0
+module	=module_33600.dll	15872	13437423285	0	0
+module	=module_33700.dll	41984	13437423285	0	0
+module	=module_33800.dll	43520	13437423285	0	0
+module	=module_34000.dll	47104	13437423285	0	0
+module	=module_34100.dll	559104	13437423285	0	0
+module	=module_34200.dll	15872	13437423285	0	0
+module	=module_34201.dll	15360	13437423285	0	0
+module	=module_34211.dll	15360	13437423285	0	0
+module	=module_34300.dll	47104	13437423285	0	0
+module	=module_34301.dll	44544	13437423285	0	0
+module	=module_34600.dll	15872	13437423285	0	0
+module	=module_34700.dll	42496	13437423285	0	0
+module	=module_34800.dll	15872	13437423285	0	0
+module	=module_34810.dll	15872	13437423285	0	0
+module	=module_34820.dll	15872	13437423285	0	0
+module	=module_35100.dll	44032	13437423285	0	0
+module	=module_35200.dll	42496	13437423285	0	0
+module	=module_35300.dll	43520	13437423285	0	0
+module	=module_35400.dll	44032	13437423285	0	0
+module	=module_35500.dll	43520	13437423285	0	0
+module	=module_35600.dll	46592	13437423285	0	0
+module	=module_35800.dll	16384	13437423285	0	0
+module	=module_36000.dll	50688	13437423285	0	0
+module	=module_36100.dll	22528	13437423285	0	0
+module	=module_36200.dll	22528	13437423285	0	0
+module	=module_36300.dll	20992	13437423285	0	1
+row	=scrypt-tmto	2	0	0	0	0	0	0	-	-	-	-	=Num	=Manually override TMTO value for scrypt to X	=--scrypt-tmto=3
+module	=module_36400.dll	44032	13437423285	0	0
+module	=module_36410.dll	43520	13437423285	0	0
+module	=module_36600.dll	41984	13437423285	0	0
+module	=module_36601.dll	41984	13437423285	0	0
+module	=module_36800.dll	44032	13437423285	0	0
+module	=module_36900.dll	16384	13437423285	0	0
+module	=module_36901.dll	43520	13437423285	0	0
+module	=module_37000.dll	43008	13437423285	0	0
+module	=module_37400.dll	43520	13437423285	0	0
+module	=module_37500.dll	43520	13437423285	0	0
+module	=module_37600.dll	43520	13437423285	0	0
+module	=module_37601.dll	41984	13437423285	0	0
+module	=module_37700.dll	43008	13437423285	0	0
+module	=module_38000.dll	43520	13437423285	0	0
+module	=module_38200.dll	19968	13437423285	0	1
+row	=scrypt-tmto	2	0	0	0	0	0	0	-	-	-	-	=Num	=Manually override TMTO value for scrypt to X	=--scrypt-tmto=3
+module	=module_38300.dll	43008	13437423285	0	0
+module	=module_38400.dll	42496	13437423285	0	0
+module	=module_38500.dll	43008	13437423285	0	0
+module	=module_38600.dll	44032	13437423285	0	0
+module	=module_38700.dll	44032	13437423285	0	0
+module	=module_38800.dll	47104	13437423285	0	0
+module	=module_38810.dll	47616	13437423285	0	0
+module	=module_38900.dll	45056	13437423285	0	0
+module	=module_40000.dll	41984	13437423285	0	0
+module	=module_40001.dll	41984	13437423285	0	0
+module	=module_40002.dll	42496	13437423285	0	0
+module	=module_40004.dll	16896	13437423285	0	0
+module	=module_40005.dll	16896	13437423285	0	0
+module	=module_40006.dll	41984	13437423285	0	0
+module	=module_40007.dll	41984	13437423285	0	0
+module	=module_40009.dll	16384	13437423285	0	0
+module	=module_40010.dll	16384	13437423285	0	0
+module	=module_40011.dll	16384	13437423285	0	0
+module	=module_40012.dll	15872	13437423285	0	0
+module	=module_40013.dll	15872	13437423285	0	0
+module	=module_40014.dll	15872	13437423285	0	0
+module	=module_40015.dll	44032	13437423285	0	0
+module	=module_40016.dll	47104	13437423285	0	0
+module	=module_40017.dll	43520	13437423285	0	0
+module	=module_40018.dll	43008	13437423285	0	0
+module	=module_40019.dll	43008	13437423285	0	0
+module	=module_40020.dll	44544	13437423285	0	0
+module	=module_40021.dll	42496	13437423285	0	0
+module	=module_40022.dll	42496	13437423285	0	0
+module	=module_40023.dll	43008	13437423285	0	0
+module	=module_40024.dll	43008	13437423285	0	0
+module	=module_40025.dll	43008	13437423285	0	0
+module	=module_40026.dll	16384	13437423285	0	0
+module	=module_40027.dll	16384	13437423285	0	0
+module	=module_40028.dll	16384	13437423285	0	0
+module	=module_40029.dll	16896	13437423285	0	0
+module	=module_40030.dll	16896	13437423285	0	0
+module	=module_40031.dll	41984	13437423285	0	0
+module	=module_40032.dll	41984	13437423285	0	0
+module	=module_40033.dll	41984	13437423285	0	0
+module	=module_40034.dll	41984	13437423285	0	0
+module	=module_40035.dll	42496	13437423285	0	0
+module	=module_40036.dll	43008	13437423285	0	0
+module	=module_40037.dll	43008	13437423285	0	0
+module	=module_40038.dll	43520	13437423285	0	0
+module	=module_40039.dll	15872	13437423285	0	0
+module	=module_40040.dll	16896	13437423285	0	0
+module	=module_40041.dll	43008	13437423285	0	0
+module	=module_40042.dll	45568	13437423285	0	0
+module	=module_40043.dll	45568	13437423285	0	0
+module	=module_40044.dll	45056	13437423285	0	0
+module	=module_40045.dll	43008	13437423285	0	0
+module	=module_40046.dll	16384	13437423285	0	0
+module	=module_40047.dll	16384	13437423285	0	0
+module	=module_40048.dll	15872	13437423285	0	0
+module	=module_40049.dll	16384	13437423285	0	0
+module	=module_40050.dll	42496	13437423285	0	0
+module	=module_40051.dll	15872	13437423285	0	0
+module	=module_40052.dll	43008	13437423285	0	0
+module	=module_40053.dll	44032	13437423285	0	0
+module	=module_40054.dll	43008	13437423285	0	0
+module	=module_40055.dll	44032	13437423285	0	0
+module	=module_40056.dll	43008	13437423285	0	0
+module	=module_40057.dll	41984	13437423285	0	0
+module	=module_40058.dll	41984	13437423285	0	0
+module	=module_40059.dll	41984	13437423285	0	0
+module	=module_40060.dll	41984	13437423285	0	0
+module	=module_40061.dll	42496	13437423285	0	0
+module	=module_40062.dll	42496	13437423285	0	0
+module	=module_40063.dll	43008	13437423285	0	0
+module	=module_40064.dll	42496	13437423285	0	0
+module	=module_40065.dll	45568	13437423285	0	0
+module	=module_40066.dll	43008	13437423285	0	0
+module	=module_40067.dll	16896	13437423285	0	0
+module	=module_40068.dll	16896	13437423285	0	0
+module	=module_40069.dll	17408	13437423285	0	0
+module	=module_40070.dll	43008	13437423285	0	0
+module	=module_40071.dll	15872	13437423285	0	0
+module	=module_40072.dll	15872	13437423285	0	0
+module	=module_40073.dll	15872	13437423285	0	0
+module	=module_40074.dll	15872	13437423285	0	0
+module	=module_40075.dll	41984	13437423285	0	0
+module	=module_40076.dll	15872	13437423285	0	0
+module	=module_40077.dll	15872	13437423285	0	0
+module	=module_40078.dll	43008	13437423285	0	0
+module	=module_40079.dll	43008	13437423285	0	0
+module	=module_40080.dll	15872	13437423285	0	0
+module	=module_40081.dll	43008	13437423285	0	0
+module	=module_40082.dll	43008	13437423285	0	0
+module	=module_40083.dll	41984	13437423285	0	0
+module	=module_40084.dll	15360	13437423285	0	0
+module	=module_40085.dll	15360	13437423285	0	0
+module	=module_40086.dll	15360	13437423285	0	0
+module	=module_40087.dll	15872	13437423285	0	0
+module	=module_40088.dll	15872	13437423285	0	0
+module	=module_40089.dll	15872	13437423285	0	0
+module	=module_40090.dll	15360	13437423285	0	0
+module	=module_40091.dll	15360	13437423285	0	0
+module	=module_40092.dll	15872	13437423285	0	0
+module	=module_40093.dll	15872	13437423285	0	0
+module	=module_40094.dll	15360	13437423285	0	0
+module	=module_40095.dll	15872	13437423285	0	0
+module	=module_40096.dll	15872	13437423285	0	0
+module	=module_40097.dll	15872	13437423285	0	0
+module	=module_40098.dll	15872	13437423285	0	0
+module	=module_40099.dll	15872	13437423285	0	0
+module	=module_40100.dll	15872	13437423285	0	0
+module	=module_40101.dll	15360	13437423285	0	0
+module	=module_40102.dll	15360	13437423285	0	0
+module	=module_40103.dll	15360	13437423285	0	0
+module	=module_40104.dll	15360	13437423285	0	0
+module	=module_40105.dll	15360	13437423285	0	0
+module	=module_40106.dll	15360	13437423285	0	0
+module	=module_40107.dll	15360	13437423285	0	0
+module	=module_40108.dll	15872	13437423285	0	0
+module	=module_40109.dll	15872	13437423285	0	0
+module	=module_40110.dll	15872	13437423285	0	0
+module	=module_40111.dll	15872	13437423285	0	0
+module	=module_40112.dll	15872	13437423285	0	0
+module	=module_40113.dll	15872	13437423285	0	0
+module	=module_40114.dll	15872	13437423285	0	0
+module	=module_40115.dll	15872	13437423285	0	0
+module	=module_40116.dll	15872	13437423285	0	0
+module	=module_40117.dll	15872	13437423285	0	0
+module	=module_40118.dll	15872	13437423285	0	0
+module	=module_40119.dll	15872	13437423285	0	0
+module	=module_40120.dll	15872	13437423285	0	0
+module	=module_40121.dll	15872	13437423285	0	0
+module	=module_40122.dll	15872	13437423285	0	0
+module	=module_40123.dll	15872	13437423285	0	0
+module	=module_40124.dll	15872	13437423285	0	0
+module	=module_40125.dll	15872	13437423285	0	0
+module	=module_40126.dll	15872	13437423285	0	0
+module	=module_40127.dll	15872	13437423285	0	0
+module	=module_40128.dll	15872	13437423285	0	0
+module	=module_40129.dll	15872	13437423285	0	0
+module	=module_40130.dll	15872	13437423285	0	0
+module	=module_40131.dll	15872	13437423285	0	0
+module	=module_40132.dll	15872	13437423285	0	0
+module	=module_40133.dll	15872	13437423285	0	0
+module	=module_40134.dll	15872	13437423285	0	0
+module	=module_40135.dll	15872	13437423285	0	0
+module	=module_40136.dll	15872	13437423285	0	0
+module	=module_40137.dll	15872	13437423285	0	0
+module	=module_40138.dll	15872	13437423285	0	0
+module	=module_40139.dll	15872	13437423285	0	0
+module	=module_40140.dll	15872	13437423285	0	0
+module	=module_40141.dll	15872	13437423285	0	0
+module	=module_40142.dll	15872	13437423285	0	0
+module	=module_40143.dll	15872	13437423285	0	0
+module	=module_40144.dll	15872	13437423285	0	0
+module	=module_40145.dll	15872	13437423285	0	0
+module	=module_40146.dll	15872	13437423285	0	0
+module	=module_40147.dll	15872	13437423285	0	0
+module	=module_40148.dll	15872	13437423285	0	0
+module	=module_40149.dll	15872	13437423285	0	0
+module	=module_40150.dll	15872	13437423285	0	0
+module	=module_40151.dll	15872	13437423285	0	0
+module	=module_40152.dll	15872	13437423285	0	0
+module	=module_40153.dll	15872	13437423285	0	0
+module	=module_40154.dll	15872	13437423285	0	0
+module	=module_40155.dll	15872	13437423285	0	0
+module	=module_40156.dll	15872	13437423285	0	0
+module	=module_40157.dll	15872	13437423285	0	0
+module	=module_40158.dll	15872	13437423285	0	0
+module	=module_40159.dll	15872	13437423285	0	0
+module	=module_40160.dll	15872	13437423285	0	0
+module	=module_40161.dll	15872	13437423285	0	0
+module	=module_40162.dll	15872	13437423285	0	0
+module	=module_40163.dll	15872	13437423285	0	0
+module	=module_40164.dll	15872	13437423285	0	0
+module	=module_40165.dll	15360	13437423285	0	0
+module	=module_40166.dll	15872	13437423285	0	0
+module	=module_40167.dll	15872	13437423285	0	0
+module	=module_40168.dll	15360	13437423285	0	0
+module	=module_40170.dll	15872	13437423285	0	0
+module	=module_40171.dll	15360	13437423285	0	0
+module	=module_40172.dll	15872	13437423285	0	0
+module	=module_40173.dll	15360	13437423285	0	0
+module	=module_40174.dll	15872	13437423285	0	0
+module	=module_40175.dll	15872	13437423285	0	0
+module	=module_70000.dll	45056	13437423285	0	0
+module	=module_70100.dll	42496	13437423285	0	0
+module	=module_70200.dll	42496	13437423285	0	0
+module	=module_73000.dll	41984	13437423285	0	0
+module	=module_74000.dll	41984	13437423285	0	0
+module	=module_75000.dll	42496	13437423285	0	0
+module	=module_79000.dll	42496	13437423285	0	0
+module	=module_99999.dll	42496	13437423285	0	0
+end	728

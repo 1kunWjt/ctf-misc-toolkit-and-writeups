@@ -1,0 +1,100 @@
+{
+  "url": "http://127.0.0.1:8790/CyberChef.html",
+  "startedAt": "2026-11-06T13:59:35.315Z",
+  "boot": {
+    "ready": true,
+    "ms": 1,
+    "detail": {
+      "ready": true,
+      "chefs": 2
+    }
+  },
+  "cases": [
+    {
+      "mod": "Default",
+      "name": "From Base64",
+      "verdict": "OK",
+      "ms": 332,
+      "output": "hello\n            \n                abc\n                5\n            \n            \n                sort\n                ",
+      "status": "Baking... (1/1)"
+    },
+    {
+      "mod": "Default",
+      "name": "To Base64 (1MB input)",
+      "verdict": "OK",
+      "ms": 345,
+      "output": "QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB",
+      "status": "Baking... (1/1)"
+    },
+    {
+      "mod": "Crypto",
+      "name": "MD5",
+      "verdict": "OK",
+      "ms": 324,
+      "output": "5d41402abc4b2a76b9719d911017c592",
+      "status": "Baking... (1/1)"
+    },
+    {
+      "mod": "Crypto",
+      "name": "SHA2 (default 512)",
+      "verdict": "OK",
+      "ms": 323,
+      "output": "9b71d224bd62f3785d96d46ad3ea3d73319bfbc2890caadae2dff72519673ca72323c3d99ba5c11d7c7acc6e14b8c5da0c4663475c2e5c3adef46f73",
+      "status": "Baking... (1/1)"
+    },
+    {
+      "mod": "Crypto",
+      "name": "JWT Decode",
+      "verdict": "OK",
+      "ms": 317,
+      "output": "{    \"sub\": \"1234567890\",    \"name\": \"John Doe\",    \"iat\": 1516239022}\n            \n                abc\n                ",
+      "status": "Baking... (1/1)"
+    },
+    {
+      "mod": "Code",
+      "name": "JSON Beautify",
+      "verdict": "OK",
+      "ms": 324,
+      "output": "{\n    \"a\": 1,\n    \"b\": [\n        2,\n        3\n    ]\n}",
+      "status": "Baking... (1/1)"
+    },
+    {
+      "mod": "Regex",
+      "name": "Regular expression",
+      "verdict": "OK",
+      "ms": 318,
+      "output": "abc123def456",
+      "status": "Baking... (1/1)"
+    },
+    {
+      "mod": "Charts",
+      "name": "Entropy",
+      "verdict": "OK",
+      "ms": 317,
+      "output": "Shannon entropy: 0\n        \n        - 0 represents no randomness (i.e. all the bytes in the data have the same value) wh",
+      "status": "Baking... (1/1)"
+    },
+    {
+      "mod": "Compression",
+      "name": "Gzip -> To Hex",
+      "verdict": "OK",
+      "ms": 319,
+      "output": "1f 8b 08 00 4d dd ed 6a 00 ff 4d c4 a1 09 00 00 10 c3 c0 55 7e b9 42 45 a0 fb bb d8 37 d7 c0 ee 29 80 88 f9 e5 11 00 00 ",
+      "status": "Baking... (2/2)"
+    },
+    {
+      "mod": "Default",
+      "name": "Magic on base64",
+      "verdict": "OK",
+      "ms": 314,
+      "output": "\n            \n                Recipe (click to load)\n                Result snippet\n                Properties\n         ",
+      "status": "Baking... (1/1)"
+    }
+  ],
+  "exceptions": [],
+  "pass": 10,
+  "fail": 0,
+  "consoleErrors": [],
+  "screenshot": "D:\\XiaoMibook\\CTF学习\\cyberchef\\.reports\\accept.png",
+  "finishedAt": "2026-11-06T13:59:42.305Z"
+}

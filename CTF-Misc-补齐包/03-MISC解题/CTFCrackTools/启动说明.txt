@@ -1,0 +1,2 @@
+CTFCrackTools-X v0.1.2（Windows x64）
+双击 ctfcracktools-x-0.1.2-windows-x64.exe 运行。

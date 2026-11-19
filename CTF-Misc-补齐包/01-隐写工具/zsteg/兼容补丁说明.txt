@@ -1,0 +1,5 @@
+本目录的 zsteg 打了两个 Windows 兼容补丁（改的是 gems/zsteg-0.2.14/lib/zsteg/file_cmd.rb）：
+1) 找不到 file.exe / 无法创建管道时不再崩溃（stop! 里加了 nil 判断）
+2) 没有 file.exe 时改用内置的文件头识别（PNG/ZIP/JPEG/GZIP/文本等），
+   结果里 file: 后面照样会显示类型。
+想要最完整的效果：把 Git 的 usr\bin 加入 PATH（里面有 file.exe）。

@@ -1,0 +1,3 @@
+LovelyMem V2.5.0 内存取证一体化 GUI
+双击 Lovelymem-V2-2.5.0-windows-x64.exe 即可运行。
+内置 Volatility2 镜像、注册表/浏览器解析等，把内存镜像拖进去用。

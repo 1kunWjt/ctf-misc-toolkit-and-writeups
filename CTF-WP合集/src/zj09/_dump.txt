@@ -1,0 +1,50 @@
+﻿[i] file = files\tempdir\REVERSE附件\ezRe  size = 920
+[i] magic = 61 0d 0d 0a  (int little-endian = 3425)
+[i] header 16 bytes: 61 0d 0d 0a 00 00 00 00 b3 c7 15 67 d2 02 00 00
+python.exe : Traceback (most recent call last):
+所在位置 行:4 字符: 1
++ & $py solve\parse_pyc39.py 'files\tempdir\REVERSE附件\ezRe' 2>&1 | Out- ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\Users\XiaoMibook\Documents\deepseek-harness\default-workspace\CTF-WP\09-ezRe\solve\parse_pyc39.py", line 371
+, in <module>
+    main()
+  File "C:\Users\XiaoMibook\Documents\deepseek-harness\default-workspace\CTF-WP\09-ezRe\solve\parse_pyc39.py", line 364
+, in main
+    top = r.read_object()
+          ^^^^^^^^^^^^^^^
+  File "C:\Users\XiaoMibook\Documents\deepseek-harness\default-workspace\CTF-WP\09-ezRe\solve\parse_pyc39.py", line 100
+, in read_object
+    obj = self._read(t)
+          ^^^^^^^^^^^^^
+  File "C:\Users\XiaoMibook\Documents\deepseek-harness\default-workspace\CTF-WP\09-ezRe\solve\parse_pyc39.py", line 201
+, in _read
+    c.consts = self.read_object()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\XiaoMibook\Documents\deepseek-harness\default-workspace\CTF-WP\09-ezRe\solve\parse_pyc39.py", line 100
+, in read_object
+    obj = self._read(t)
+          ^^^^^^^^^^^^^
+  File "C:\Users\XiaoMibook\Documents\deepseek-harness\default-workspace\CTF-WP\09-ezRe\solve\parse_pyc39.py", line 163
+, in _read
+    out.append(self.read_object())
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\XiaoMibook\Documents\deepseek-harness\default-workspace\CTF-WP\09-ezRe\solve\parse_pyc39.py", line 100
+, in read_object
+    obj = self._read(t)
+          ^^^^^^^^^^^^^
+  File "C:\Users\XiaoMibook\Documents\deepseek-harness\default-workspace\CTF-WP\09-ezRe\solve\parse_pyc39.py", line 205
+, in _read
+    c.cellvars = self.read_object()
+                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\XiaoMibook\Documents\deepseek-harness\default-workspace\CTF-WP\09-ezRe\solve\parse_pyc39.py", line 100
+, in read_object
+    obj = self._read(t)
+          ^^^^^^^^^^^^^
+  File "C:\Users\XiaoMibook\Documents\deepseek-harness\default-workspace\CTF-WP\09-ezRe\solve\parse_pyc39.py", line 158
+, in _read
+    return self.refs[self.i32()]
+           ~~~~~~~~~^^^^^^^^^^^^
+IndexError: list index out of range

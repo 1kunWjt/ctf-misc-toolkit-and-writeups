@@ -1,0 +1,15 @@
+# 只发布这两个目录
+/*
+!/.gitignore
+!/README.md
+!/CTF-Misc-补齐包/
+!/CTF-WP合集/
+
+# 缓存 / 临时产物
+__pycache__/
+*.pyc
+*.pyo
+.pip-tmp/
+**/.pip-tmp/
+Thumbs.db
+desktop.ini

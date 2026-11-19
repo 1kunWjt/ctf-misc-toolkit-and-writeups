@@ -1,0 +1,205 @@
+   0  LOAD_CONST              0  0
+   2  LOAD_CONST              1  None
+   4  JUMP_FORWARD            0
+   6  JUMP_FORWARD            0
+   8  JUMP_FORWARD            0
+  10  IMPORT_NAME             0  base64
+  12  STORE_NAME              0  base64
+  14  LOAD_NAME               1  input
+  16  LOAD_CONST              2  'Flag: '
+  18  CALL_FUNCTION           1  npos=1 nkw=0
+  20  STORE_NAME              2  text
+  22  LOAD_CONST              3  '7e021a7dd49e4bd0837e22129682551b'
+  24  STORE_NAME              3  key
+  26  LOAD_CONST              4  <code <listcomp> args=1>
+  28  LOAD_CONST              5  '<listcomp>'
+  30  MAKE_FUNCTION           0
+  32  LOAD_NAME               3  key
+  34  GET_ITER            
+  35  <JUNK 0x00>
+  36  CALL_FUNCTION           1  npos=1 nkw=0
+  38  STORE_NAME              3  key
+  40  LOAD_NAME               4  list
+  42  LOAD_NAME               5  range
+  44  LOAD_CONST              6  256
+  46  CALL_FUNCTION           1  npos=1 nkw=0
+  48  CALL_FUNCTION           1  npos=1 nkw=0
+  50  STORE_NAME              6  s
+  52  LOAD_CONST              0  0
+  54  STORE_NAME              7  j
+  56  LOAD_NAME               5  range
+  58  LOAD_CONST              6  256
+  60  CALL_FUNCTION           1  npos=1 nkw=0
+  62  GET_ITER            
+  63  <JUNK 0x00>
+  64  FOR_ITER               62
+  66  STORE_NAME              8  i
+  68  LOAD_NAME               7  j
+  70  LOAD_NAME               6  s
+  72  LOAD_NAME               8  i
+  74  BINARY_SUBSCR       
+  75  <JUNK 0x00>
+  76  BINARY_ADD          
+  77  <JUNK 0x00>
+  78  LOAD_NAME               3  key
+  80  LOAD_NAME               8  i
+  82  LOAD_NAME               9  len
+  84  LOAD_NAME               3  key
+  86  CALL_FUNCTION           1  npos=1 nkw=0
+  88  BINARY_MODULO       
+  89  <JUNK 0x00>
+  90  BINARY_SUBSCR       
+  91  <JUNK 0x00>
+  92  BINARY_ADD          
+  93  <JUNK 0x00>
+  94  LOAD_CONST              6  256
+  96  BINARY_MODULO       
+  97  <JUNK 0x00>
+  98  STORE_NAME              7  j
+ 100  LOAD_NAME               6  s
+ 102  LOAD_NAME               7  j
+ 104  BINARY_SUBSCR       
+ 105  <JUNK 0x00>
+ 106  LOAD_NAME               6  s
+ 108  LOAD_NAME               8  i
+ 110  BINARY_SUBSCR       
+ 111  <JUNK 0x00>
+ 112  ROT_TWO             
+ 113  <JUNK 0x00>
+ 114  LOAD_NAME               6  s
+ 116  LOAD_NAME               8  i
+ 118  STORE_SUBSCR        
+ 119  <JUNK 0x00>
+ 120  LOAD_NAME               6  s
+ 122  LOAD_NAME               7  j
+ 124  STORE_SUBSCR        
+ 125  <JUNK 0x00>
+ 126  JUMP_ABSOLUTE          64
+ 128  LOAD_CONST              0  0
+ 130  DUP_TOP             
+ 131  <JUNK 0x00>
+ 132  STORE_NAME              8  i
+ 134  STORE_NAME              7  j
+ 136  BUILD_LIST              0
+ 138  STORE_NAME             10  data
+ 140  LOAD_NAME               5  range
+ 142  LOAD_CONST              7  50
+ 144  CALL_FUNCTION           1  npos=1 nkw=0
+ 146  GET_ITER            
+ 147  <JUNK 0x00>
+ 148  FOR_ITER               88
+ 150  STORE_NAME             11  _
+ 152  LOAD_NAME               8  i
+ 154  LOAD_CONST              8  1
+ 156  BINARY_ADD          
+ 157  <JUNK 0x00>
+ 158  LOAD_CONST              6  256
+ 160  BINARY_MODULO       
+ 161  <JUNK 0x00>
+ 162  STORE_NAME              8  i
+ 164  LOAD_NAME               7  j
+ 166  LOAD_NAME               6  s
+ 168  LOAD_NAME               8  i
+ 170  BINARY_SUBSCR       
+ 171  <JUNK 0x00>
+ 172  BINARY_ADD          
+ 173  <JUNK 0x00>
+ 174  LOAD_CONST              6  256
+ 176  BINARY_MODULO       
+ 177  <JUNK 0x00>
+ 178  STORE_NAME              7  j
+ 180  LOAD_NAME               6  s
+ 182  LOAD_NAME               7  j
+ 184  BINARY_SUBSCR       
+ 185  <JUNK 0x00>
+ 186  LOAD_NAME               6  s
+ 188  LOAD_NAME               8  i
+ 190  BINARY_SUBSCR       
+ 191  <JUNK 0x00>
+ 192  ROT_TWO             
+ 193  <JUNK 0x00>
+ 194  LOAD_NAME               6  s
+ 196  LOAD_NAME               8  i
+ 198  STORE_SUBSCR        
+ 199  <JUNK 0x00>
+ 200  LOAD_NAME               6  s
+ 202  LOAD_NAME               7  j
+ 204  STORE_SUBSCR        
+ 205  <JUNK 0x00>
+ 206  LOAD_NAME              10  data
+ 208  LOAD_METHOD            12  append
+ 210  LOAD_NAME               6  s
+ 212  LOAD_NAME               6  s
+ 214  LOAD_NAME               8  i
+ 216  BINARY_SUBSCR       
+ 217  <JUNK 0x00>
+ 218  LOAD_NAME               6  s
+ 220  LOAD_NAME               7  j
+ 222  BINARY_SUBSCR       
+ 223  <JUNK 0x00>
+ 224  BINARY_ADD          
+ 225  <JUNK 0x00>
+ 226  LOAD_CONST              6  256
+ 228  BINARY_MODULO       
+ 229  <JUNK 0x00>
+ 230  BINARY_SUBSCR       
+ 231  <JUNK 0x00>
+ 232  CALL_METHOD             1
+ 234  POP_TOP             
+ 235  <JUNK 0x00>
+ 236  JUMP_ABSOLUTE         148
+ 238  LOAD_CONST              9  ''
+ 240  STORE_NAME             13  result
+ 242  LOAD_NAME              14  zip
+ 244  LOAD_NAME               2  text
+ 246  LOAD_NAME              10  data
+ 248  CALL_FUNCTION           2  npos=2 nkw=0
+ 250  GET_ITER            
+ 251  <JUNK 0x00>
+ 252  FOR_ITER               32
+ 254  UNPACK_SEQUENCE         2
+ 256  STORE_NAME             15  c
+ 258  STORE_NAME             16  k
+ 260  LOAD_NAME              13  result
+ 262  LOAD_NAME              17  chr
+ 264  LOAD_NAME              18  ord
+ 266  LOAD_NAME              15  c
+ 268  CALL_FUNCTION           1  npos=1 nkw=0
+ 270  LOAD_NAME              16  k
+ 272  BINARY_XOR          
+ 273  <JUNK 0x00>
+ 274  LOAD_CONST             10  51
+ 276  BINARY_XOR          
+ 277  <JUNK 0x00>
+ 278  CALL_FUNCTION           1  npos=1 nkw=0
+ 280  INPLACE_ADD         
+ 281  <JUNK 0x00>
+ 282  STORE_NAME             13  result
+ 284  JUMP_ABSOLUTE         252
+ 286  LOAD_NAME               0  base64
+ 288  LOAD_METHOD            19  b64encode
+ 290  LOAD_NAME              13  result
+ 292  LOAD_METHOD            20  encode
+ 294  CALL_METHOD             0
+ 296  CALL_METHOD             1
+ 298  LOAD_METHOD            21  decode
+ 300  CALL_METHOD             0
+ 302  STORE_NAME             22  enc
+ 304  LOAD_NAME              22  enc
+ 306  LOAD_CONST             11  'w53Cj3HDgzTCsSM5wrg6FMKcw58Qw7RZSFLCljRxwrxbwrVdw4AEwqMjw7/DkMKTw4/Cv8Onw4NGw7jDmSdcwq4GGg=='
+ 308  COMPARE_OP              2  ==
+ 312  POP_JUMP_IF_FALSE     324
+ 314  LOAD_NAME              23  print
+ 316  LOAD_CONST             12  'yes!'
+ 318  CALL_FUNCTION           1  npos=1 nkw=0
+ 320  POP_TOP             
+ 321  <JUNK 0x00>
+ 322  JUMP_FORWARD            8
+ 324  LOAD_NAME              23  print
+ 326  LOAD_CONST             13  'try again...'
+ 328  CALL_FUNCTION           1  npos=1 nkw=0
+ 330  POP_TOP             
+ 331  <JUNK 0x00>
+ 332  LOAD_CONST              1  None
+ 334  RETURN_VALUE        
+ 335  <JUNK 0x00>
