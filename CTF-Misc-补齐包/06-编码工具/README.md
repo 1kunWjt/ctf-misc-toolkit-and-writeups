@@ -24,8 +24,10 @@ GitHub **单文件上限 100 MB**（硬限制，非建议值）。这个工具�
 ## 下载与校验
 
 - 下载页：<https://github.com/1kunWjt/ctf-misc-toolkit-and-writeups/releases/tag/encoder-v8.0.0>
-- 文件名：`[随波逐流]CTF编码工具_V8.0.0_Release_20261018.rar`
-- 大小：172,902,xxx 字节（172.9 MB）
+- 直链：<https://github.com/1kunWjt/ctf-misc-toolkit-and-writeups/releases/download/encoder-v8.0.0/suibozhuliu-CTF-Encoder-v8.0.0.rar>
+- 资产文件名：`suibozhuliu-CTF-Encoder-v8.0.0.rar`（GitHub 会把资产名里的中文和方括号过滤掉，所以这里用 ASCII 名；内容仍是原始 RAR）
+- 原始文件名：`[随波逐流]CTF编码工具_V8.0.0_Release_20261018.rar`
+- 大小：**181,248,317 字节**（172.9 MB）
 - SHA-256：
 
 ```
@@ -35,7 +37,7 @@ F928D0CBF684C0BAB8537A5C2EE2444D421BC4239714414AE37D9695F75C568A
 校验命令（Windows PowerShell）：
 
 ```powershell
-Get-FileHash -LiteralPath '.\随波逐流CTF编码工具_V8.0.0.rar' -Algorithm SHA256
+Get-FileHash -LiteralPath '.\suibozhuliu-CTF-Encoder-v8.0.0.rar' -Algorithm SHA256
 ```
 
 ## 怎么用（30 秒）
