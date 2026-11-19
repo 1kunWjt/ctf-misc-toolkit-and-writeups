@@ -2,6 +2,7 @@
 
 > 两个目录：**CTF-Misc-补齐包**（Misc 方向工具与解题包）与 **CTF-WP合集**（自己做过的题的解题目录）。
 > 全部离线可用，Typora / VS Code 直接打开 Markdown 即可。
+> 感谢deepseek把我乱七八糟的思路整理得这么好
 
 ## 目录
 
