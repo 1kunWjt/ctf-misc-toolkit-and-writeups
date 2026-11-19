@@ -14,6 +14,7 @@
 | `03-MISC解题` | 分诊脚本与解题模板 |
 | `04-文件与十六进制` | binwalk、文件签名对照、十六进制工具 |
 | `05-密码学` | z3、编码 / 古典密码工具 |
+| `06-编码工具` | 随波逐流 CTF 编码工具 V8.0.0（走 [Release](https://github.com/1kunWjt/ctf-misc-toolkit-and-writeups/releases/tag/encoder-v8.0.0) 下载，见目录内说明） |
 | `CyberChef-本地版` | CyberChef 离线版（断网可用，已修掉部分功能卡死问题） |
 | `启动菜单.bat` / `_menu.ps1` | 一键菜单（按题型选工具） |
 | `工具使用方法.md` | 每个工具干什么、怎么调 |
